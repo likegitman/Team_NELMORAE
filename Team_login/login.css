@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    position: absolute;
+    width: 769px;
+    height: 139px;
+    left: 160px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 116px;
+    text-transform: uppercase;
+
+    color: #FCBD5D;
+    font-variation-settings: 'slnt' 0;
+
+    backdrop-filter: blur(15px);
+}
+
+.phrases_2 {
+    position: absolute;
+    width: 659px;
+    height: 87px;
+    left: 165px;
+    top: 280px;
+
+    font-family: 'Inter';
+    font-weight: 1;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    color: #000000;
+    font-variation-settings: 'slnt' -4;
+}
+
+.login {
+    position: absolute;
+    width: 280px;
+    height: 370px;
+    left: 856px;
+    top: 130px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 37px;
+
+    padding: 55px;
+}
+
+.login input {
+    width: 350px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 3px solid #EAEAEA;
+    border-radius: 25px;
+    outline: none;
+}
+
+.login input:focus {
+    border: 3px solid #FCBD5D;
+}
+
+.login .id_letter,
+.login .pwd_letter {
+    position: relative;
+    right: 35px;
+    font-weight: bold;
+}
+
+.login .id_input {
+    position: relative;
+    right: 41px;
+    margin-bottom: 15px;
+}
+
+.login .pwd_input{
+    position: relative;
+    right: 41px;
+}
+
+.login .submit_group{
+    justify-content: center;
+}
+
+
+.login .log_submit {
+    position: absolute;
+    right: 27px;
+    top: 280px;
+    width: 345px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: #FCBD5D;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login .ac_submit {
+    position: absolute;
+    right: 33px;
+    top: 370px;
+    width: 332px;
+    height: 52px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+.login .log_submit:hover{
+    color: #FCBD5D;
+    background-color: #E6E6FA;
+    transition: all 1s;
+}
+
+.login .log_submit:focus{
+    border: none;
+}
+
+.login .ac_submit:hover{
+    background-color: #E0E0E0;
+    transition: all 1s;
+}
+
+.login .ac_submit:focus{
+    border: none;
+}
