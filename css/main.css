@@ -1,0 +1,204 @@
+.title {
+    position: absolute;
+    width: 403px;
+    height: 149px;
+    left: 100px;
+    top: -45px;
+
+    font-faily: 'Inter';
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 85px;
+    text-transform: uppercase;
+
+    color: #dcb117;
+    font-variation-settings: 'slnt' 0;
+}
+
+.announce {
+    position: absolute;
+    width: 1350px;
+    height: 60px;
+    left: 90px;
+    top: 95px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.ann {
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    top: 110px;
+    left: 100px;
+    font-size: 21px;
+}
+.sbox {
+    position: absolute;
+    width: 350px;
+    height: 510px;
+    top: 200px;
+    left: 90px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.sbox_note {
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    top: 175px;
+    left: 120px;
+
+    background-color: orange;
+    border-radius: 20px 20px 10px 10px;
+}
+.s1 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 132px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.s2 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 155px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.s3 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 178px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.bbox {
+    position: absolute;
+    width: 580px;
+    height: 510px;
+    top: 200px;
+    left: 470px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.bbox_note {
+    position: absolute;
+    width: 113px;
+    height: 70px;
+    top: 175px;
+    left: 500px;
+
+    background-color: orange;
+    border-radius: 20px 20px 10px 10px;
+}
+.s4 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 512px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.s5 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 535px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.s6 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 558px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.s7 {
+    position: absolute;
+    width: 14px;
+    height: 44px;
+    top: 167px;
+    left: 581px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+.propil {
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    top: 200px;
+    left: 1080px;
+
+    background-color: white;
+    border-radius: 30px;
+}
+.pic {
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    top: 225px;
+    left: 1100px;
+
+    background-color: orange;
+    border-radius: 30px;
+}
+.name {
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    top: 232px;
+    left: 1240px;
+    font-size: 26px;
+}
+.sq1 {
+    position: absolute;
+    width: 87px;
+    height: 40px;
+    top: 311px;
+    left: 1240px;
+
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.sq2 {
+    position: absolute;
+    width: 87px;
+    height: 40px;
+    top: 311px;
+    left: 1340px;
+
+    background-color: orange;
+    border-radius: 20px;
+}
+.wsq {
+    position: absolute;
+    width: 360px;
+    height: 310px;
+    top: 400px;
+    left: 1080px;
+
+    background-color: white;
+    border-radius: 30px;
+}

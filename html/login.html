@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class="title">NELMORAE</h1>
+    <h3 class="phrases_2">내일을 향해 걸어나가는 첫걸음</h3>
+    <form class="login" autocomplete="off">
+        <span class="id_letter">아이디</span>
+        <input type="text" class="id_input" placeholder="아이디를 입력하세요"
+        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+        <!--최소 8자리에서 최대 16자리까지 숫자, 영문, 특수문자 각 1개 이상 포함-->
+        <span class="pwd_letter">비밀번호</span>
+        <input type="password" class="pwd_input" placeholder="비밀번호를 입력하세요"
+        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+        <input type="submit" class="log_submit" value="로그인">
+        <a href="signup.html"><input type="submit" class="ac_submit" value="회원가입"></a>
+    </form>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

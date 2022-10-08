@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+}
+
+.wrap{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/back.webp);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar .navbar_title{
+    font-size: 35px;
+    color: #66CDAA;
+}
+
+.navbar_list{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.navbar_list li{
+    margin: 8px 12px;
+}
+
+.navbar_list li a:hover{
+    color: #66CDAA;
+}
+
+.start_section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.start_section .section_title{
+    font-size: 55px;
+    color:#FCBD5D;
+    margin-bottom: 15px;
+}
+
+.start_section .section_Para{
+    font-size: 20px;
+}
+
+.devel_Team{
+    position: absolute;
+    top: 90%;
+    left: 37%;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.devel_Team .member{
+    margin: 8px 12px;
+    text-decoration: underline;
+}
+
+.devel_Team .member a:hover{
+    color: #66CDAA;
+}
